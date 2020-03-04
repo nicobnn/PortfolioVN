@@ -24,8 +24,10 @@ body
 
 .discussion 
 {
+    overflow-y: auto;
     border: 1px solid black;
-    min-height: 4em;
+    height: 8em;
+    
 }
 .message 
 {
