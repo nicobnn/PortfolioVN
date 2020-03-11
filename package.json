@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/nicobnn/PortfolioVN/issues"
   },
-  "homepage": "https://github.com/nicobnn/PortfolioVN#readme"
+  "homepage": "https://github.com/nicobnn/PortfolioVN#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
 }
