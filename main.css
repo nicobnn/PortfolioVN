@@ -59,7 +59,10 @@ body
     
 }
 .tabs__tab{
-    display: inline;     
+    display: inline;   
+    padding: 8px;
+    border-right: 1px solid #bbb;
+    
 }
 
 a:link
