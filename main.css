@@ -59,13 +59,13 @@ body
     
 }
 .tabs__tab{
-    display: inline;   
-    padding: 8px;
-    background-color: #dddddd;   
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    border-right: 1px solid #bbb;
+    display: inline;     
 }
+
+a:link
+{
+text-decoration:none;
+}
+
+
 
