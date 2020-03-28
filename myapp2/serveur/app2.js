@@ -13,3 +13,4 @@ app2.use(function (req, res, next) {
     res.status(404).send("ERROR 404")
   })
 //app.use(express.static('PortfolioVN/images/404.png'))
+

@@ -1,7 +1,10 @@
 html,
+
 body
 {
     height: 100%;
+    background: #D8D8D8;
+    font: 1.1em sans-serif;
 }
 
 .container
@@ -47,3 +50,22 @@ body
 {
     flex: 1 1 auto;
 }
+.tabs{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    
+}
+.tabs__tab{
+    display: inline;   
+    padding: 8px;
+    background-color: #dddddd;   
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-right: 1px solid #bbb;
+}
+
