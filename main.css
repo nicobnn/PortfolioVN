@@ -9,8 +9,6 @@ body
 
 .container
 {
-    min-width: 40em;
-    max-width: 80%;
     margin-right: auto;
     margin-left: auto;
 }
