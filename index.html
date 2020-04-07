@@ -59,7 +59,20 @@
 
     <main class="container  u-flex__item">
         <div class="photo">
-            <img src="images/image7.jpg" class="photo2" alt="[Photo 1 du portfolio]" height="540" width="960" />
+            <map name="map1">
+                <area shape="rect" coords="0,0,240,540"
+                  href="hiver.html" alt="exemple de rect" />
+              
+                <area shape="rect" coords="240, 0, 480, 540"
+                  href="printemps.html" alt="exemple de rectangle" />
+
+                <area shape="rect" coords="480, 0, 720, 540"
+                  href="ete.html" alt="exemple de rectangle" />
+
+                <area shape="rect" coords="720, 0, 960, 540"
+                  href="automne.html" alt="exemple de rectangle" />
+            </map>
+            <img src="images/image7.jpg" class="photo2" alt="[Photo 1 du portfolio]" height="540" width="960" usemap="#map1" />
         </div>
         <div class="description_photo">
             <p>
